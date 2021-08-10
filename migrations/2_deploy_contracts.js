@@ -1,11 +1,13 @@
-const DegRouter = artifacts.require('DegRouter.sol');
+const BaboRouter = artifacts.require('BaboRouter.sol');
 
 
-module.exports = async function (deployer, _network, addresses) {
-    const factory = '0x08d97905063A55f18cC8c1074ED4DC2b2e7C11aE';
-    const wBnb = '0xd3c54c4f6b79063c63b3b18fcee2d56722610a02';
+module.exports = async function (deployer, _network) {
+    const factory = '0x85f35FEd0725DA586b934407144104da48A7976C';
+    const wBnb = '0xA56c37DE55b4C0cf20D02a69e6D6f099fB0593C8';
 
-    deployer.deploy(DegRouter, factory, wBnb);
+    deployer.deploy(BaboRouter, factory, wBnb);
+
+    console.log('Deployed BaboRouter');
 };
 
 

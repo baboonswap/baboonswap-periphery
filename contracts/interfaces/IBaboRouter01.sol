@@ -1,6 +1,6 @@
 pragma solidity >=0.6.2;
 
-interface IDegRouter01 {
+interface IBaboRouter01 {
     function factory() external pure returns (address);
     function WETH() external pure returns (address);
 

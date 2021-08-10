@@ -1,8 +1,8 @@
 pragma solidity >=0.6.2;
 
-import './IDegRouter01.sol';
+import './IBaboRouter01.sol';
 
-interface IDegRouter02 is IDegRouter01 {
+interface IBaboRouter02 is IBaboRouter01 {
     function removeLiquidityETHSupportingFeeOnTransferTokens(
         address token,
         uint liquidity,

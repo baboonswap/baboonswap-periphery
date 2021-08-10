@@ -5,10 +5,10 @@
   "engines": {
     "node": ">=10"
   },
-  "homepage": "http://dragonstashdefi.com/",
+  "homepage": "https://github.com/baboonswap/baboonswap-periphery",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DragonStashDefi/dragon-stash-defi-periphery"
+    "url": "https://github.com/baboonswap/baboonswap-periphery"
   },
   "files": [
     "build",
@@ -17,7 +17,7 @@
   "dependencies": {
     "@uniswap/lib": "1.1.1",
     "@pantherswap-libs/panther-swap-core": "0.1.0",
-    "dragon-stash-defi-core-contract": "1.0.0",
+    "@baboonswap/baboonswap-core": "1.0.0",
     "truffle-hdwallet-provider": "^1.0.17",
     "truffle-plugin-verify": "^0.4.0"
   },
